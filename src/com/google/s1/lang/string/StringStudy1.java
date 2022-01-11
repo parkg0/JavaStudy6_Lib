@@ -3,6 +3,46 @@ package com.google.s1.lang.string;
 import java.util.Scanner;
 
 public class StringStudy1 {
+	public void splitTest() {
+		String name=" iu, suji, choa, 펭수, 춘식이";
+		
+		
+	String[] names=name.split(",");
+	for(int i=0;i<names.length;i++) {
+	System.out.println(names[i].trim());
+	}
+		
+	}
+	
+	public void valueTest() {
+		int num = 1000;
+		String result =String.valueOf(num);
+		System.out.println(result);
+		
+		
+		
+	
+	}
+	
+public void caseTest() {
+	String title = "West Side Story";
+	String result=title.toUpperCase();
+	System.out.println(result);
+	
+	String result2=title.toLowerCase();
+	System.out.println(result2);
+
+}
+	
+	
+public void replaceTest() {
+	String title = "West Side Story";
+	String result=title.replace("West", "north");
+	System.out.println(title);
+	System.out.println(result);
+
+}
+
 
 	public void subStringEx1() {
 		// 키보드로부터 업로드할 파일명을 입력받음
@@ -82,7 +122,9 @@ public class StringStudy1 {
 
 	public void indexOfTest() {
 		String msg = "Hello World";
+		//msg=reference type,지역변수,참조변수 
 		int num = msg.indexOf('e', 6);
+		//num=primitive type,지역변수
 		// int ch='w'
 		// 못찾으면 -1
 		// 여러개있으면 맨앞에꺼 찾고 끝남

@@ -20,6 +20,14 @@ public class ObjectMain {
 
 		boolean check = car.equals(fc);
 		System.out.println(check);
+//		Object obj = car;
+//
+//		FireCar fc = new FireCar();
+//		fc.hashCode();
+//		obj = fc;// fc는 오브젝트타입이다.
+//
+//		boolean check = car.equals(fc);
+//		System.out.println(check);
 	}
 
 }
