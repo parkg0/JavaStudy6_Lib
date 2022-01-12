@@ -9,6 +9,7 @@ public class MemberData {
 		this.data = "id1-pw1-name1-id1@gamil.com-";
 		this.data = this.data + "id2-pw2-name2-id2@naver.com-";
 		this.data = this.data + "id3-pw3-name3-id3@daum.net";
+
 		this.data = "id1-pw1-name1-id1@gamil.com-20-";
 		this.data = this.data + "id2-pw2-name2-id2@naver.com-42-";
 		this.data = this.data + "id3-pw3-name3-id3@daum.net-36-";
@@ -19,6 +20,13 @@ public class MemberData {
 	// this.data
 	// id1빼내서집어넣고 이름 빼내서 집어넣고배열에 담아서 회원
 	// 멤버데이터 3개나와야되고 그걸 배열에 담아서리턴
+	public void addMember(ArrayList<MemberDTO> ar) {
+//새로 추가할 MemberDTO 생성
+		//키보드로부터 id,pw,이름,이메일,나이 입력받아서
+		//MemberDTO의 멤버변수 값으로 대입
+		//매개변수로 받은 ar에 MemberDTO추가 
+	}
+	
 
 //	MemberDTO[] memberDTO =new MemberDTO[3];
 
