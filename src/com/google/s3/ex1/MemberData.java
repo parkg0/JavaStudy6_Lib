@@ -24,31 +24,7 @@ public class MemberData {
 //	MemberDTO[] memberDTO =new MemberDTO[3];
 
 	public ArrayList<MemberDTO> init() {
-	String str= this.data;
-	StringTokenizer st = new StringTokenizer(str, "-");
-	ArrayList<MemberDTO> ar =new ArrayList<>();
-	
-	while (st.hasMoreTokens()) {
-		MemberDTO memberDTO= new MemberDTO();
-		String token =st.nextToken();
-		memberDTO.setId(token);
-		
-		token =st.nextToken();
-		memberDTO.setPw(token);
-		
-		token =st.nextToken();
-		memberDTO.setName(token);
-		token =st.nextToken();
-		memberDTO.setEmail(token);
-		token =st.nextToken();
-		memberDTO.setAge(Integer.parseInt(token));
-		
-		ar.add(memberDTO);
-		System.out.println(memberDTO.getAge());
-	}
-	for(int i=0; i<ar.size();i++) {
-		MemberDTO memberDTO = ar.get(i);
-
+	System.out.println("memeberex1브랜치");
 	}
 		
 			//data에 있는 문자열을 StringTokenizer로 파싱해서
