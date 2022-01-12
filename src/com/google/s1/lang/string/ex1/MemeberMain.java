@@ -13,6 +13,7 @@ public class MemeberMain {
 		System.out.println(members[i].getId());
 		System.out.println(members[i].getPw());
 		System.out.println(members[i].getName());
+		System.out.println(members[i].getAge());
 		System.out.println(members[i].getEmail());
 		
 	}
