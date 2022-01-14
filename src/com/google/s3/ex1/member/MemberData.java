@@ -1,6 +1,5 @@
-package com.google.s3.ex1;
+package com.google.s3.ex1.member;
  
-//bjbhkj
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package com.google.s3.ex1;
+package com.google.s3.ex1.member;
 
 public class MemberDTO { //회원 한명을 뜻함
 	//아이디 패스워드 이름 이메일
